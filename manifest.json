@@ -1,0 +1,17 @@
+{
+  "name": "Medievil Poptracker Pack",
+  "game_name": "Medievil",
+  "package_uid": "<unique string for saves>",
+  "package_version": "<unique string for open and saves>",
+  "platform": "<platform>",
+  "platform_override": "<optional actual platform>",
+  "variants": {
+    "<some_variant_uid>": {
+      "display_name": "<Readable Name>",
+      "flags": ["<some flag>"]
+    }
+  },
+  "versions_url": "https://example.com/versions.json",
+  "min_poptracker_version": "0.23.1",
+  "target_poptracker_version": "0.23.1"
+}

@@ -19,13 +19,15 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "arm",
-                                "sword1",
+								"arm",
+								"sword",
                                 "broadsword",
-                                "magicsword",
-                                "shieldcopper",
-                                "shieldsilver",
-                                "shieldgold"
+								"magicsword",
+								"shieldcopper",
+								"shieldsilver",
+								"shieldgold"
+                                
+								
                             ],
                             [
                                 "club",
@@ -33,7 +35,7 @@
                                 "axe",
                                 "lightning",
                                 "goodlightning",
-                                "dragonpotion",
+                                "dragonarmour",
                                 "chickendrumstick"
                             ],
                             [
@@ -66,8 +68,14 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "runechaos"
-                            ]
+                                "club",
+								"hammer",
+								"daring5"
+								
+                            ],
+							[
+								"starcrypt"
+							]
                         ]
                     
                 
@@ -112,8 +120,10 @@
                         "item_height": 50,
                         "item_width": 50,
                         "rows": [
-								["club"],
-								["hammer"]
+							[
+								"club",
+								"hammer"
+							]
                         ]
                     
                 
@@ -135,12 +145,13 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "club",
+                                
 								"chaoshill",
 								"earthhill",
 								"moonhill"
                             ],
 							[
+								"club",
 								"hammer",
 								"sheetmusic"
 							]
@@ -220,9 +231,11 @@
 								"moongorge",
 								"timegorge"
                             ],
-							["club",
-							"hammer",
-							"dash"]
+							[
+								"club",
+								"hammer",
+								"daring5"
+							]
                         ]
                     
                 
@@ -449,7 +462,11 @@
 								"earthcrystal",
 								"starcrystal",
 								"dragongem"
-                            ]
+                            ],
+							[
+								"club",
+								"hammer"
+							]
                         ]
                     
                 
@@ -472,7 +489,7 @@
                         "rows": [
                             [
                                 "stargallow",
-								"dragonpotion"
+								"dragonarmour"
                             ]
                         ]
                     
@@ -498,7 +515,8 @@
                                 "chaosruins",
 								"earthruins",
 								"crown"
-                            ]
+                            ],
+							["daring5"]
                         ]
                     
                 
@@ -530,30 +548,7 @@
             }
         ]
 		},
-		"entrance": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
-        "content": [
-            {
-                "type": "itemgrid",
-                        "item_margin": "5, 5",
-                        "h_alignment": "left",
-                        "item_h_alignment": "center",
-                        "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
-                        "rows": [
-                            [
-                                "chaosgrave",
-								"earthgrave"
-                            ]
-                        ]
-                    
-                
-            }
-        ]
-		},
+		
 		
 		"device": {
         "type": "array",

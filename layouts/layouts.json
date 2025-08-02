@@ -32,21 +32,29 @@
 														"type": "layout",
 														"key": "shared_item_grid_horizontal"
 													}
-												},
-												{
-													"type": "group",
-													"header": "Dan's Crypt",
-													"dock": "top",
-													"content": {
-														"type": "layout",
-														"key": "crypt"
-													}
 												}
+												
 											]
 										}
 									]
 								},
 								
+								{
+									"title": "World Map",
+									"icon": "images/labels/dan.png",
+									"content": {
+										"type": "dock",
+										"dock": "top",
+										"orientation": "vertical",
+										"content": [
+																				
+											{
+												"type": "map",
+												"maps": ["World Map"]
+											}
+											]
+									}
+								},
 								{
 									"title": "Dan's Crypt",
 									"icon": "images/labels/dan.png",
@@ -96,8 +104,8 @@
 									}
 								},
 								{
-									"title": "Cemetery Hill",
-									"icon": "images/items/witch talisman.png",
+									"title": "Cemetery Hill and Hilltop Mausoleum",
+									"icon": "images/labels/glass demon.png",
 									"content": {
 										"type": "dock",
 										"dock": "top",
@@ -111,22 +119,7 @@
 													"type": "layout",
 													"key": "cemetery"
 												}
-											},									
-											{
-												"type": "map",
-												"maps": ["Cemetery Hill"]
-											}
-											]
-									}
-								},
-								{
-									"title": "Hilltop Mausoleum",
-									"icon": "images/labels/glass demon.png",
-									"content": {
-										"type": "dock",
-										"dock": "top",
-										"orientation": "vertical",
-										"content": [
+											},
 											{
 												"type": "group",
 												"header": "Hilltop Mausoleum",
@@ -135,14 +128,15 @@
 													"type": "layout",
 													"key": "hilltop"
 												}
-											},									
+											},
 											{
 												"type": "map",
-												"maps": ["Hilltop Mausoleum"]
+												"maps": ["Cemetery Hill"]
 											}
 											]
 									}
 								},
+								
 								
 								{
 									"title": "Return to the Graveyard",
@@ -516,7 +510,7 @@
 									}
 								},
 								{
-									"title": "The Time Device",
+									"title": "The Time Device and Zarok's Lair",
 									"icon": "images/items/time rune.png",
 									"content": {
 										"type": "dock",
@@ -533,21 +527,6 @@
 												}
 											},	
 											{
-												"type": "map",
-												"maps": ["Time Device"]
-											}
-										]
-									}
-								},
-								{
-									"title": "Zarok's Lair",
-									"icon": "images/labels/zarok.png",
-									"content": {
-										"type": "dock",
-										"dock": "top",
-										"orientation": "vertical",
-										"content": [
-											{
 												"type": "group",
 												"header": "Zarok's Lair",
 												"dock": "left",
@@ -555,14 +534,15 @@
 													"type": "layout",
 													"key": "zarok"
 												}
-											},	
+											},
 											{
 												"type": "map",
-												"maps": ["Zarok's Lair"]
+												"maps": ["Time Device"]
 											}
 										]
 									}
 								}
+								
 								
 							]
 						}

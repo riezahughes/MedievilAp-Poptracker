@@ -12,4 +12,8 @@ Due to the way the game deals with key items, it's hard to see what exactly you 
 
 # Notes
 
-This isn't even working yet. It's currently under active development. There won't be a release till it's ready.
+Chalice tracking is still manual.
+
+# Thanks
+
+VGCartography for the level maps - https://www.deviantart.com/vgcartography/gallery/89842419/medievil-1998

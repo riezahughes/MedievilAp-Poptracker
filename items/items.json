@@ -5,11 +5,46 @@
         "img": "images/items/Arm.png",
         "codes": "arm"
     },
+	{
+        "name": "Daring Dash",
+        "type": "toggle",
+        "img": "images/items/Daring Dash.png",
+        "codes": "Daring"
+    },
+	{
+        "name": "Daring Dash",
+        "type": "toggle",
+        "img": "images/items/Daring Dash2.png",
+        "codes": "Daring2"
+    },
+	{
+        "name": "Daring Dash",
+        "type": "toggle",
+        "img": "images/items/Daring Dash3.png",
+        "codes": "Daring3"
+    },
+	{
+        "name": "Daring Dash",
+        "type": "toggle",
+        "img": "images/items/Daring Dash4.png",
+        "codes": "Daring4"
+    },
+	{
+        "name": "Daring Dash",
+        "type": "toggle",
+        "img": "images/items/Daring Dash5.png",
+        "codes": "Daring5"
+    },{
+        "name": "Daring Dash",
+        "type": "toggle",
+        "img": "images/items/Daring Dash6.png",
+        "codes": "Daring6"
+    },
     {
         "name": "Small Sword",
         "type": "toggle",
         "img": "images/items/SmallSword.png",
-        "codes": "sword1"
+        "codes": "sword"
     },
     {
         "name": "Broadsword",
@@ -17,7 +52,7 @@
         "img": "images/items/Broadsword.png",
         "codes": "broadsword"
     },
-    {
+	{
         "name": "Magic Sword",
         "type": "toggle",
         "img": "images/items/MagicSword.png",
@@ -306,6 +341,12 @@
         "codes": "runestar"
     },
 	{
+        "name": "Star Rune Dan's Crypt",
+        "type": "toggle",
+        "img": "images/items/star rune.png",
+        "codes": "starcrypt"
+    },
+	{
         "name": "Star Rune RtG",
         "type": "toggle",
         "img": "images/items/star rune.png",
@@ -424,8 +465,8 @@
         "name": "Amber",
         "type": "consumable",
         "img": "images/items/Amber.png",
-        "codes": "amber",
-        "max_quantity": 10
+        "codes": "amber,amber1,amber2,amber3,amber4,amber5,amber6",
+        "max_quantity": 7
     },
     {
         "name": "Soul Helmet",
@@ -442,10 +483,10 @@
         "max_quantity": 2
     },
 	{
-        "name": "Dragon Potion",
+        "name": "Dragon Armour",
         "type": "toggle",
         "img": "images/items/dragonpotion.png",
-        "codes": "dragonpotion"
+        "codes": "dragonarmour"
     },
 	{
         "name": "Chicken Drumstick",

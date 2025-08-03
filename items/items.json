@@ -145,7 +145,7 @@
 	{
         "name": "Sheet Music",
         "type": "toggle",
-        "img": "images/items/sheetmusic.png",
+        "img": "images/items/sheet music.png",
         "codes": "sheetmusic"
     },
 	{
@@ -502,4 +502,5 @@
         "codes": "chalice",
         "max_quantity": 20
     }
+
 ]

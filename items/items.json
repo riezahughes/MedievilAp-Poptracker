@@ -323,6 +323,12 @@
         "codes": "moongorge"
     },
 	{
+        "name": "Moon Rune Village",
+        "type": "toggle",
+        "img": "images/items/moon rune.png",
+        "codes": "moonsleep"
+    },
+	{
         "name": "Moon Rune Ghost Ship",
         "type": "toggle",
         "img": "images/items/moon rune.png",
@@ -351,6 +357,12 @@
         "type": "toggle",
         "img": "images/items/star rune.png",
         "codes": "starreturn"
+    },
+	{
+        "name": "Star Rune Pumpkin Gorge",
+        "type": "toggle",
+        "img": "images/items/star rune.png",
+        "codes": "stargorge"
     },
 	{
         "name": "Star Rune Enchanted Earth",
@@ -504,3 +516,4 @@
     }
 
 ]
+

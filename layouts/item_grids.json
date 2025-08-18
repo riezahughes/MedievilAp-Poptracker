@@ -45,7 +45,7 @@
                                 "longbow",
                                 "flaminglongbow",
                                 "magiclongbow",
-								"chalice"
+								"daring5"
                             ]
                         ]
                     }
@@ -75,7 +75,12 @@
                             ],
 							[
 								"starcrypt"
-							]
+							],
+							[
+                                "club",
+								"hammer",
+								"daring5"
+                            ]
                         ]
                     
                 
@@ -97,8 +102,8 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosgrave",
-								"earthgrave"
+                                "earthgrave",
+								"chaosgrave"
                             ]
                         ]
                     
@@ -145,10 +150,9 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                
-								"chaoshill",
 								"earthhill",
-								"moonhill"
+								"moonhill",
+								"chaoshill"
                             ],
 							[
 								"club",
@@ -200,9 +204,9 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosscare",
-								"earthscare",
 								"moonscare",
+								"earthscare",
+								"chaosscare",
 								"harvesterpart"
                             ]
                         ]
@@ -226,13 +230,13 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosgorge",
-								"earthgorge",
 								"moongorge",
+								"chaosgorge",
+								"earthgorge",
+								"stargorge",
 								"timegorge"
                             ],
-							[
-								"club",
+							[	"club",
 								"hammer",
 								"daring5"
 							]
@@ -281,13 +285,14 @@
                         "rows": [
                             [
                                 "chaossleep",
-								"earthsleep",
-								"safekey"
+								"moonsleep",
+								"earthsleep"
                             ],
 							[
 								"landlordsbust",
 								"crucifixcast",
-								"crucifix"
+								"crucifix",
+								"safekey"
 							]
                         ]
                     
@@ -363,8 +368,7 @@
 							[
 								"shadowartefact",
 								"shadowtalisman"
-								
-                            ]
+							]
                         ]
                     
                 
@@ -386,7 +390,7 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "amber"
+								"club","hammer","amber"
                             ]
                         ]
                     
@@ -433,10 +437,10 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaoslake",
 								"earthlake",
-								"starlake",
-								"timelake"
+                                "chaoslake",
+								"timelake",
+								"starlake"
                             ]
                         ]
                     
@@ -516,7 +520,12 @@
 								"earthruins",
 								"crown"
                             ],
-							["daring5"]
+							[
+								"daring5",
+								"dragonarmour",
+								"Club",
+								"Hammer"
+							]
                         ]
                     
                 
@@ -538,10 +547,13 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosship",
 								"moonship",
-								"starship"
-                            ]
+								"starship",
+                                "chaosship"
+                            ],
+							[
+								"club"
+							]
                         ]
                     
                 
@@ -565,10 +577,10 @@
                         "item_width": 50,
                         "rows": [
                             [
+								"timedevice",
                                 "chaosdevice",
 								"earthdevice",
-								"moondevice",
-								"timedevice"
+								"moondevice"
                             ]
                         ]
                     
@@ -601,4 +613,5 @@
 		}
 		
 	
+
 }

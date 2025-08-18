@@ -67,12 +67,6 @@
                         "item_height": 50,
                         "item_width": 50,
                         "rows": [
-                            [
-                                "club",
-								"hammer",
-								"daring5"
-								
-                            ],
 							[
 								"starcrypt"
 							],
@@ -615,3 +609,4 @@
 	
 
 }
+

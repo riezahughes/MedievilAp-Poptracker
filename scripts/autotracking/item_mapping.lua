@@ -78,11 +78,12 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 135] = {"earthasylum", "toggle"},
 	[BASE_ITEM_ID + 136] = {"earthenchant", "toggle"},
 	[BASE_ITEM_ID + 137] = {"earthruins", "toggle"},
-	[BASE_ITEM_ID + 139] = {"earthdevice", "toggle"},
+	[BASE_ITEM_ID + 138] = {"earthdevice", "toggle"},
 	
 	-- Moon Runes
-	[BASE_ITEM_ID + 140] = {"moonhill", "toggle"},
-	[BASE_ITEM_ID + 141] = {"moonscare", "toggle"},
+	[BASE_ITEM_ID + 139] = {"moonhill", "toggle"},
+	[BASE_ITEM_ID + 140] = {"moonscare", "toggle"},
+	[BASE_ITEM_ID + 141] = {"moonsleep", "toggle"},
 	[BASE_ITEM_ID + 142] = {"moongorge", "toggle"},
 	[BASE_ITEM_ID + 143] = {"moonship", "toggle"},
 	[BASE_ITEM_ID + 144] = {"moondevice", "toggle"},
@@ -93,13 +94,15 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 147] = {"starcrystal", "toggle"},
 	[BASE_ITEM_ID + 148] = {"starlake", "toggle"},
 	[BASE_ITEM_ID + 149] = {"starenchant", "toggle"},
-	[BASE_ITEM_ID + 150] = {"stargallow", "toggle"},
-	[BASE_ITEM_ID + 151] = {"starship", "toggle"},
+	[BASE_ITEM_ID + 150] = {"stargorge", "toggle"},
+	[BASE_ITEM_ID + 151] = {"stargallow", "toggle"},
+	[BASE_ITEM_ID + 152] = {"starship", "toggle"},
 	
 	--Time Runes
-	[BASE_ITEM_ID + 152] = {"timelake", "toggle"},
-	[BASE_ITEM_ID + 153] = {"timegorge", "toggle"},
-	[BASE_ITEM_ID + 154] = {"timedevice", "toggle"}
+	[BASE_ITEM_ID + 153] = {"timelake", "toggle"},
+	[BASE_ITEM_ID + 154] = {"timegorge", "toggle"},
+	[BASE_ITEM_ID + 155] = {"timedevice", "toggle"}
 	
 	
+
 }	

@@ -123,25 +123,127 @@
         "name": "Cleared Crypt",
         "type": "toggle",
         "img": "images/labels/dan.png",
-        "codes": "cleared crypt"
+        "codes": "clearedcrypt"
     },
 	{
-        "name": "Cleared graveyard",
+        "name": "Cleared Graveyard",
         "type": "toggle",
         "img": "images/labels/dan.png",
-        "codes": "cleared graveyard"
+        "codes": "clearedgraveyard"
     },
 	{
         "name": "Cleared Hill",
         "type": "toggle",
         "img": "images/labels/dan.png",
-        "codes": "cleared hill"
+        "codes": "clearedhill"
     },
 	{
         "name": "Cleared Mausoleum",
         "type": "toggle",
         "img": "images/labels/dan.png",
-        "codes": "cleared mausoleum"
+        "codes": "clearedmausoleum"
+    },
+	{
+        "name": "Cleared RtG",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedrtg"
+    },
+	{
+        "name": "Cleared Scarecrow Fields",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedfields"
+    },
+	{
+        "name": "Cleared Pumpkin Gorge",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedgorge"
+    },
+	{
+        "name": "Cleared Pumpkin Serpent",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedserpent"
+    },
+	{
+        "name": "Cleared Sleeping Village",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedvillage"
+    },
+	{
+        "name": "Cleared Asylum Grounds",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedgrounds"
+    },
+	{
+        "name": "Cleared Asylum",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedasylum"
+    },
+	{
+        "name": "Cleared Enchanted Earth",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedenchant"
+    },
+	{
+        "name": "Cleared Ant Caves",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedant"
+    },
+	{
+        "name": "Cleared PotAD",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedpools"
+    },
+	{
+        "name": "Cleared Lake",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedlake"
+    },
+	{
+        "name": "Cleared Crystal Caves",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedcrystal"
+    },
+	{
+        "name": "Cleared Gallows Gauntlet",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedgallows"
+    },
+	{
+        "name": "Cleared Haunted Ruins",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedruins"
+    },
+	{
+        "name": "Cleared Ghost Ship",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedship"
+    },
+	{
+        "name": "Cleared Entrance Hall",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "clearedhall"
+    },
+	{
+        "name": "Cleared Time Device",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "cleareddevice"
     },
 	{
         "name": "Skull Key",

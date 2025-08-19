@@ -1,0 +1,685 @@
+[
+    {	
+        "name": "Ant Caves",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"visibility_rules": 
+			["antcaves"],
+			
+		"access_rules": 
+			["club", "Hammer"],
+		
+        "children": 
+        [
+            {
+                "name": "Behind Barrier",
+				"map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 135,
+                        "y": 370
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Caves Entrance",
+				"parent": "Dan's Crypt",
+				"visibility_rules": [
+                            "antcaves"
+							],
+							
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 425,
+                        "y": 280
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Club",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+				"name": "Ambers",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 280,
+                        "y": 1080
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+                    {
+                        "name": "Amber 1"
+                    },
+					{
+                        "name": "Amber 2"
+                    },
+					{
+                        "name": "Amber 3"
+                    },
+					{
+                        "name": "Amber 4"
+                    },
+					{
+                        "name": "Amber 5"
+                    },
+					{
+                        "name": "Amber 6"
+                    },
+					{
+                        "name": "Amber 7"
+                    }
+					
+                ]
+			},
+			{
+				"name": "Ambers 2",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 700,
+                        "y": 920
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+				{
+					"ref": "Ant Caves/Ambers/Amber 1"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 2"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 3"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 4"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 5"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 6"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 7"
+				}
+					
+                ]
+			},
+			{
+				"name": "Ambers 3",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 710,
+                        "y": 1200
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+				{
+					"ref": "Ant Caves/Ambers/Amber 1"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 2"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 3"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 4"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 5"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 6"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 7"
+				}
+					
+                ]
+			},
+			{
+				"name": "Ambers 4",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 1035,
+                        "y": 830
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+				{
+					"ref": "Ant Caves/Ambers/Amber 1"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 2"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 3"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 4"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 5"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 6"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 7"
+				}
+					
+                ]
+			},
+			{
+				"name": "Ambers 5",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 1045,
+                        "y": 1180
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+				{
+					"ref": "Ant Caves/Ambers/Amber 1"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 2"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 3"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 4"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 5"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 6"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 7"
+				}
+					
+                ]
+			},
+			{
+				"name": "Ambers 6",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 930,
+                        "y": 1450
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+				{
+					"ref": "Ant Caves/Ambers/Amber 1"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 2"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 3"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 4"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 5"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 6"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 7"
+				}
+					
+                ]
+			},
+			{
+				"name": "Ambers 7",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 1015,
+                        "y": 1560
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+				{
+					"ref": "Ant Caves/Ambers/Amber 1"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 2"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 3"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 4"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 5"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 6"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 7"
+				}
+					
+                ]
+			},
+			{
+				"name": "Ambers 8",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 1450,
+                        "y": 1860,
+						"size": 45
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+				{
+					"ref": "Ant Caves/Ambers/Amber 1"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 2"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 3"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 4"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 5"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 6"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 7"
+				}
+					
+                ]
+			},
+			{
+				"name": "Ambers 9",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 1600,
+                        "y": 1765
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+				{
+					"ref": "Ant Caves/Ambers/Amber 1"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 2"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 3"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 4"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 5"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 6"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 7"
+				}
+					
+                ]
+			},
+			{
+				"name": "Ambers 10",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 1860,
+                        "y": 1695
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+				{
+					"ref": "Ant Caves/Ambers/Amber 1"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 2"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 3"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 4"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 5"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 6"
+				},
+				{
+					"ref": "Ant Caves/Ambers/Amber 7"
+				}
+					
+                ]
+			},
+			{
+                "name": "Fairies",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 260,
+                        "y": 925,
+						"size": 40
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Fairy 1",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Fairies",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 430,
+                        "y": 1215,
+						"size": 40
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Fairy 2",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Fairies",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 1345,
+                        "y": 1265,
+						"size": 40
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Fairy 3",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Fairies",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 1128,
+                        "y": 1673,
+						"size": 40
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Fairy 4",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Fairies",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 1445,
+                        "y": 1920,
+						"size": 40
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Fairy 5",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Fairies",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 1790,
+                        "y": 1620,
+						"size": 40
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Fairy 6",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Energy Vials",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 550,
+                        "y": 1085
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Energy Vials",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 540,
+                        "y": 1200
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 2",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Energy Vials",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 180,
+                        "y": 1345
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 3",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Energy Vials",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 1310,
+                        "y": 1365
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 4",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Energy Vials",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 775,
+                        "y": 1520
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 5",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Ant Caves Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 2400,
+                        "y": 1770,
+						"shape": "diamond",
+						"size": 60
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared"
+                    }
+                ]
+            }
+		]
+    }
+]

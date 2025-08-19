@@ -1,0 +1,176 @@
+[
+    {	
+        "name": "Pumpkin Serpent",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+				
+        "children": 
+        [
+            {
+                "name": "Behind House",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Serpent",
+                        "x": 318,
+                        "y": 437
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 1",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Behind House",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Serpent",
+                        "x": 380,
+                        "y": 410
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 2",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Witch's Cauldron",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Serpent",
+                        "x": 265,
+                        "y": 245
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Dragon Gem",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Pod Behind Roots",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Serpent",
+                        "x": 403,
+                        "y": 113
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+				"name": "Down the Well",
+				"map_locations": 
+				[
+					{
+						"map": "Pumpkin Serpent",
+                        "x": 195,
+                        "y": 600
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1"
+                    },
+					{
+                        "name": "Coin Chest"
+                    },
+					{
+                        "name": "Energy Vial 2"
+                    }
+					
+                ]
+			},
+			{
+				"name": "Down the Well",
+				"map_locations": 
+				[
+					{
+						"map": "Pumpkin Serpent",
+                        "x": 270,
+                        "y": 680
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+					
+                ]
+			},
+			{
+				"name": "Dried up Pond",
+				"map_locations": 
+				[
+					{
+						"map": "Pumpkin Serpent",
+                        "x": 555,
+                        "y": 575
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial"
+                    }
+					
+                ]
+			},
+			{
+                "name": "Pumpkin Serpent Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Serpent",
+                        "x": 950,
+                        "y": 305,
+						"shape": "diamond",
+						"size": 30
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared"
+					}
+                ]
+            }
+		]
+    }
+]

@@ -8,37 +8,8 @@
 	{
         "name": "Daring Dash",
         "type": "toggle",
-        "img": "images/items/Daring Dash.png",
-        "codes": "Daring"
-    },
-	{
-        "name": "Daring Dash",
-        "type": "toggle",
-        "img": "images/items/Daring Dash2.png",
-        "codes": "Daring2"
-    },
-	{
-        "name": "Daring Dash",
-        "type": "toggle",
-        "img": "images/items/Daring Dash3.png",
-        "codes": "Daring3"
-    },
-	{
-        "name": "Daring Dash",
-        "type": "toggle",
-        "img": "images/items/Daring Dash4.png",
-        "codes": "Daring4"
-    },
-	{
-        "name": "Daring Dash",
-        "type": "toggle",
         "img": "images/items/Daring Dash5.png",
         "codes": "Daring5"
-    },{
-        "name": "Daring Dash",
-        "type": "toggle",
-        "img": "images/items/Daring Dash6.png",
-        "codes": "Daring6"
     },
     {
         "name": "Small Sword",
@@ -147,6 +118,30 @@
         "type": "toggle",
         "img": "images/items/sheet music.png",
         "codes": "sheetmusic"
+    },
+	{
+        "name": "Cleared Crypt",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "cleared crypt"
+    },
+	{
+        "name": "Cleared graveyard",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "cleared graveyard"
+    },
+	{
+        "name": "Cleared Hill",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "cleared hill"
+    },
+	{
+        "name": "Cleared Mausoleum",
+        "type": "toggle",
+        "img": "images/labels/dan.png",
+        "codes": "cleared mausoleum"
     },
 	{
         "name": "Skull Key",
@@ -365,6 +360,32 @@
         "codes": "stargorge"
     },
 	{
+        "name": "Runesanity",
+        "type": "progressive",
+        "img": "images/labels/runesanity.png",
+		"loop": "true",
+        "codes": "runesanity"
+    },
+	{
+        "name": "Runesanity Text",
+        "type": "static",
+        "img": "images/labels/runesanity text.png",
+        "codes": "runelabel"
+    },
+	{
+        "name": "Ant Hill",
+        "type": "progressive",
+        "img": "images/labels/ant hill.png",
+		"loop": "true",
+        "codes": "antcaves"
+    },
+	{
+        "name": "Ant Caves Text",
+        "type": "static",
+        "img": "images/labels/ant caves text.png",
+        "codes": "antlabel"
+    },
+	{
         "name": "Star Rune Enchanted Earth",
         "type": "toggle",
         "img": "images/items/star rune.png",
@@ -450,7 +471,7 @@
         "codes": "crucifix"
     },
 	{
-        "name": "Peregrine's Crown",
+        "name": "Peregrin's Crown",
         "type": "toggle",
         "img": "images/items/PeregrinCrown.png",
         "codes": "crown"
@@ -514,6 +535,4 @@
         "codes": "chalice",
         "max_quantity": 20
     }
-
 ]
-

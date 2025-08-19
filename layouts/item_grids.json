@@ -52,7 +52,7 @@
                 ]
             }
         ]
-		},
+	},
 		"crypt": {
         "type": "array",
         "orientation": "vertical",
@@ -97,7 +97,8 @@
                         "rows": [
                             [
                                 "earthgrave",
-								"chaosgrave"
+								"chaosgrave",
+								"clearedcrypt"
 							]
                         ]
                     
@@ -121,7 +122,8 @@
                         "rows": [
 							[
 								"club",
-								"hammer"
+								"hammer",
+								"clearedgraveyard"
 							]
                         ]
                     
@@ -146,7 +148,8 @@
                             [
 								"earthhill",
 								"moonhill",
-								"chaoshill"
+								"chaoshill",
+								"clearedhill"
                             ],
 							[
 								"club",
@@ -175,7 +178,8 @@
                         "rows": [
                             [
                                 "skullkey",
-								"starreturn"
+								"starreturn",
+								"clearedmausoleum"
                             ]
                         ]
                     
@@ -201,7 +205,8 @@
 								"moonscare",
 								"earthscare",
 								"chaosscare",
-								"harvesterpart"
+								"harvesterpart",
+								"clearedrtg"
                             ]
                         ]
                     
@@ -228,7 +233,8 @@
 								"chaosgorge",
 								"earthgorge",
 								"stargorge",
-								"timegorge"
+								"timegorge",
+								"clearedfields"
                             ],
 							[	"club",
 								"hammer",
@@ -255,7 +261,8 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "witchtalisman"
+                                "witchtalisman",
+								"clearedgorge"
                             ]
                         ]
                     
@@ -280,7 +287,8 @@
                             [
                                 "chaossleep",
 								"moonsleep",
-								"earthsleep"
+								"earthsleep",
+								"clearedfields"
                             ],
 							[
 								"landlordsbust",
@@ -309,7 +317,8 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosgrounds"
+                                "chaosgrounds",
+								"clearedvillage"
                             ]
                         ]
                     
@@ -332,7 +341,8 @@
                         "item_width": 50,
                         "rows": [
                             [
-								"earthasylum"
+								"earthasylum",
+								"clearedgrounds"
                             ]
                         ]
                     
@@ -357,7 +367,8 @@
                             [
                                 "earthenchant",
 								"starenchant",
-								"witchtalisman"
+								"witchtalisman",
+								"clearedrtg"
 							],
 							[
 								"shadowartefact",
@@ -384,7 +395,7 @@
                         "item_width": 50,
                         "rows": [
                             [
-								"club","hammer","amber"
+								"club","hammer","amber","clearedrtg"
                             ]
                         ]
                     
@@ -408,7 +419,8 @@
                         "rows": [
                             [
                                 "chaospools",
-								"soulhelmet"
+								"soulhelmet",
+								"clearedenchant"
                             ]
                         ]
                     
@@ -434,7 +446,8 @@
 								"earthlake",
                                 "chaoslake",
 								"timelake",
-								"starlake"
+								"starlake",
+								"clearedpools"
                             ]
                         ]
                     
@@ -459,7 +472,8 @@
                             [
 								"earthcrystal",
 								"starcrystal",
-								"dragongem"
+								"dragongem",
+								"clearedlake"
                             ],
 							[
 								"club",
@@ -487,7 +501,8 @@
                         "rows": [
                             [
                                 "stargallow",
-								"dragonarmour"
+								"dragonarmour",
+								"clearedcrystal"
                             ]
                         ]
                     
@@ -512,7 +527,8 @@
                             [
                                 "chaosruins",
 								"earthruins",
-								"crown"
+								"crown",
+								"clearedgallows"
                             ],
 							[
 								"daring5",
@@ -543,11 +559,35 @@
                             [
 								"moonship",
 								"starship",
-                                "chaosship"
+                                "chaosship",
+								"clearedruins"
                             ],
 							[
 								"club"
 							]
+                        ]
+                    
+                
+            }
+        ]
+		},
+		"hall": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                        "item_margin": "5, 5",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 50,
+                        "item_width": 50,
+                        "rows": [
+                            [
+								"clearedship"
+                            ]
                         ]
                     
                 
@@ -572,7 +612,8 @@
 								"timedevice",
                                 "chaosdevice",
 								"earthdevice",
-								"moondevice"
+								"moondevice",
+								"clearedhall"
                             ]
                         ]
                     
@@ -595,7 +636,8 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "goodlightning"
+                                "goodlightning",
+								"cleareddevice"
                             ]
                         ]
                     

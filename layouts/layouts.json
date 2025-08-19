@@ -506,8 +506,24 @@
 									"title": "The Entrance Hall",
 									"icon": "images/labels/kobold.png",
 									"content": {
+										"type": "dock",
+										"dock": "top",
+										"orientation": "vertical",
+										"content": [
+											{
+												"type": "group",
+												"header": "Entrance Hall",
+												"dock": "left",
+												"content": {
+													"type": "layout",
+													"key": "hall"
+												}
+											},
+											{
 										"type": "map",
 										"maps": ["Entrance Hall"]
+									}
+									]
 									}
 								},
 								{

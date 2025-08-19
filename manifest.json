@@ -7,10 +7,11 @@
 	"platform": "psx",
     "variants": {
         "Full Tracker": {
-            "display_name": "Item Tracker",
+            "display_name": "Tracker",
 			"flags": [	"ap"	]
         }
     }
 
 }
+
 

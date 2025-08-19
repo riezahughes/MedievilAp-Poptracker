@@ -9,6 +9,7 @@ Due to the way the game deals with key items, it's hard to see what exactly you 
 - Put the zip file into the "packs" folder of poptracker
 - run poptracker and load the pack
 - click the "ap" icon and connect to your AP game!
+- click the settings icon next to AP icon and set your chosen options.
 
 # Notes
 

@@ -67,7 +67,7 @@
                         "item_height": 50,
                         "item_width": 50,
                         "rows": [
-							[
+                            [
 								"starcrypt"
 							],
 							[
@@ -75,7 +75,7 @@
 								"hammer",
 								"daring5"
                             ]
-                        ]
+						]
                     
                 
             }
@@ -98,7 +98,7 @@
                             [
                                 "earthgrave",
 								"chaosgrave"
-                            ]
+							]
                         ]
                     
                 
@@ -554,8 +554,6 @@
             }
         ]
 		},
-		
-		
 		"device": {
         "type": "array",
         "orientation": "vertical",
@@ -604,9 +602,36 @@
                 
             }
         ]
+		},
+
+		"settings": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "itemgrid",
+						"item_margin": "5, 5",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"item_height": 100,
+						"item_width": 100,
+						"rows": [
+							[
+								"runelabel",
+								"runesanity"
+							],
+							[
+								"antlabel",
+								"antcaves"
+							]
+						]
+                    
+                
+            }
+        ]
 		}
 		
 	
-
 }
-

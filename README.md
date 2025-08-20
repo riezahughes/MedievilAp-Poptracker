@@ -14,6 +14,7 @@ Due to the way the game deals with key items, it's hard to see what exactly you 
 # Notes
 
 No autotracking for locations.
+Still missing Overworld and Hall of Heroes locations.
 
 # Thanks
 

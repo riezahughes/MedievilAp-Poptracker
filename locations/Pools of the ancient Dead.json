@@ -3,6 +3,7 @@
         "name": "Pools of the Ancient Dead",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedenchant"],
 				
         "children": 
         [
@@ -371,6 +372,7 @@
             },
 			{
                 "name": "Pools of the Ancient Dead Clear",
+				"access_rules": "helmet: 8",
                 "map_locations": 
                 [
                     {
@@ -385,7 +387,8 @@
                 "sections": 
                 [
                     {
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "clearedpools"
 					}
                 ]
             }

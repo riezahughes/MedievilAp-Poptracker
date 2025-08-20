@@ -4,13 +4,13 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
 		"access_rules": [
-				"skullkey"
+				"skullkey, clearedmausoleum"
 				],
 		
         "children": 
         [
             {
-                "name": "Energy Vial West",
+                "name": "Right Exit",
                 "map_locations": 
                 [
                     {
@@ -29,7 +29,7 @@
                 ]
             },
 			{
-                "name": "Energy Vial",
+                "name": "Undertakers Entrance",
                 "map_locations": 
                 [
                     {
@@ -48,7 +48,7 @@
                 ]
             },
 			{
-                "name": "Star Rune",
+                "name": "Atop Mound",
                 "map_locations": 
                 [
                     {
@@ -69,8 +69,9 @@
                 ]
             },
 			{
-				"name": "Silver Shield",
+				"name": "Shop",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
 				"map_locations": 
 				[
 					{
@@ -91,7 +92,7 @@
                 ]
 			},
 			{
-                "name": "Energy Vial East",
+                "name": "Left Exit",
                 "map_locations": 
                 [
                     {
@@ -110,8 +111,9 @@
                 ]
             },
 			{
-                "name": "Coin Bag Shop",
+                "name": "Shop",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
                 "map_locations": 
                 [
                     {
@@ -130,8 +132,9 @@
                 ]
             },
 			{
-                "name": "Coin Bag Raised",
+                "name": "Raised Platform",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
                 "map_locations": 
                 [
                     {
@@ -150,8 +153,9 @@
                 ]
             },
 			{
-                "name": "Coin Bag Ledge",
+                "name": "Secret Area Ledge",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
                 "map_locations": 
                 [
                     {
@@ -170,8 +174,9 @@
                 ]
             },
 			{
-                "name": "Coin Bag Fountain",
+                "name": "Fountain",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
                 "map_locations": 
                 [
                     {
@@ -190,7 +195,7 @@
                 ]
             },
 			{
-                "name": "Coin Bag East",
+                "name": "Left Exit",
                 "map_locations": 
                 [
                     {
@@ -209,7 +214,7 @@
                 ]
             },
 			{
-                "name": "Coin Bag",
+                "name": "Tomb Entrance",
                 "map_locations": 
                 [
                     {
@@ -228,8 +233,9 @@
                 ]
             },
 			{
-                "name": "Energy Vial Shop",
+                "name": "Shop",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
                 "map_locations": 
                 [
                     {
@@ -248,7 +254,7 @@
                 ]
             },
 			{
-                "name": "Coin Chest",
+                "name": "Island",
                 "map_locations": 
                 [
                     {
@@ -267,8 +273,9 @@
                 ]
             },
 			{
-                "name": "Energy Vials",
+                "name": "Secret Area",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
                 "map_locations": 
                 [
                     {
@@ -291,8 +298,9 @@
                 ]
             },
 			{
-                "name": "Coin Chests",
+                "name": "Secret Area",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
                 "map_locations": 
                 [
                     {
@@ -327,7 +335,7 @@
                 ]
             },
 			{
-                "name": "Chalice",
+                "name": "Undertakers",
                 "map_locations": 
                 [
                     {
@@ -365,7 +373,8 @@
                         "name": "Daring Dash"
                     },
 					{
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "clearedrtg"
 					}
                 ]
             }

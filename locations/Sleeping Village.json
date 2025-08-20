@@ -3,6 +3,7 @@
         "name": "Sleeping Village",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedfields"],
 		
         "children": 
         [
@@ -53,6 +54,7 @@
             },
 			{
                 "name": "Church",
+				"access_rules": "Crucifix",
                 "map_locations": 
                 [
                     {
@@ -278,6 +280,7 @@
             },
 			{
                 "name": "Ledge at Mayor's House",
+				"access_rules": "Crucifix",
 				"map_locations": 
                 [
                     {
@@ -306,6 +309,7 @@
             },
 			{
                 "name": "Mayor's House",
+				"access_rules": "Crucifix",
                 "map_locations": 
                 [
                     {
@@ -329,6 +333,7 @@
             },
 			{
                 "name": "Mayor's House",
+				"access_rules": ["Crucifix, safekey"],
                 "map_locations": 
                 [
                     {
@@ -386,6 +391,7 @@
             },
 			{
                 "name": "Sleeping Village Clear",
+				"access_rules": "Crucifix",
                 "map_locations": 
                 [
                     {
@@ -400,7 +406,8 @@
                 "sections": 
                 [
                     {
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "clearedvillage"
 					}
                 ]
             }

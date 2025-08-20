@@ -3,6 +3,7 @@
         "name": "Inside the Asylum",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedgrounds"],
 				
         "children": 
         [
@@ -187,7 +188,8 @@
                 "sections": 
                 [
                     {
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "clearedasylum"
 					}
                 ]
             }

@@ -3,6 +3,7 @@
         "name": "Pumpkin Gorge",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedfields"],
 				
         "children": 
         [
@@ -261,7 +262,7 @@
                 ]
 			},
 			{
-                "name": "Coin Bag 1",
+                "name": "Entry Road",
                 "map_locations": 
                 [
                     {
@@ -378,7 +379,8 @@
                 "sections": 
                 [
                     {
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "clearedgorge"
 					}
                 ]
             }

@@ -4,13 +4,13 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
 		"access_rules": [
-				"club", "hammer"
+				"club, clearedhill", "hammer, clearedhill"
 				],
 		
         "children": 
         [
             {
-                "name": "Energy Vial West",
+                "name": "Basement West",
                 "map_locations": 
                 [
                     {
@@ -29,7 +29,7 @@
                 ]
             },
 			{
-                "name": "Earth Rune",
+                "name": "Basement West",
                 "map_locations": 
                 [
                     {
@@ -50,7 +50,7 @@
                 ]
             },
 			{
-                "name": "Chaos Rune",
+                "name": "Music Room",
                 "map_locations": 
                 [
                     {
@@ -71,7 +71,7 @@
                 ]
             },
 			{
-                "name": "Moon Rune",
+                "name": "Chapel",
                 "map_locations": 
                 [
                     {
@@ -92,8 +92,9 @@
                 ]
             },
 			{
-				"name": "Club",
+				"name": "Chapel Gate",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedhill"],
 				"map_locations": 
 				[
 					{
@@ -114,7 +115,7 @@
                 ]
 			},
 			{
-                "name": "Copper Shield",
+                "name": "Glass Heart",
                 "map_locations": 
                 [
                     {
@@ -133,7 +134,7 @@
                 ]
             },
 			{
-                "name": "Energy Vial East",
+                "name": "Basement East",
                 "map_locations": 
                 [
                     {
@@ -152,7 +153,7 @@
                 ]
             },
 			{
-                "name": "Coin Bag 1",
+                "name": "Below Chapel",
                 "map_locations": 
                 [
                     {
@@ -171,8 +172,9 @@
                 ]
             },
 			{
-                "name": "Coin Bag 2nd Grave",
+                "name": "4th Grave Left",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedhill"],
                 "map_locations": 
                 [
                     {
@@ -191,7 +193,7 @@
                 ]
             },
 			{
-                "name": "Energy Vial 3rd Grave",
+                "name": "3rd Grave Right",
                 "map_locations": 
                 [
                     {
@@ -210,7 +212,7 @@
                 ]
             },
 			{
-                "name": "Sheet Music",
+                "name": "Basement East",
                 "map_locations": 
                 [
                     {
@@ -229,7 +231,7 @@
                 ]
             },
 			{
-                "name": "Coin Chest",
+                "name": "Basement East",
                 "map_locations": 
                 [
                     {
@@ -248,7 +250,7 @@
                 ]
             },
 			{
-                "name": "Energy Vials",
+                "name": "Music Room",
                 "map_locations": 
                 [
                     {
@@ -271,7 +273,7 @@
                 ]
             },
 			{
-                "name": "Chalice",
+                "name": "Secret Alcove",
 				"access_rules": "sheetmusic",
                 "map_locations": 
                 [
@@ -304,7 +306,7 @@
                 ]
             },
 			{
-                "name": "Throwing Daggers",
+                "name": "Glass Heart",
                 "map_locations": 
                 [
                     {
@@ -341,7 +343,8 @@
                         "name": "Skull Key"
                     },
 					{
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "clearedmausoleum"
 					}
                 ]
             }

@@ -134,7 +134,7 @@
                 ]
             },
 			{
-                "name": "End of Corridor",
+                "name": "End of Corridor 2",
                 "map_locations": 
                 [
                     {
@@ -169,7 +169,7 @@
                 [
                     {
                         "name": "cleared crypt",
-						"hosted_item": "cleared crypt"
+						"hosted_item": "clearedcrypt"
 						
                     }
                 ]

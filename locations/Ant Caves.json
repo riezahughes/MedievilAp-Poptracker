@@ -7,7 +7,7 @@
 			["antcaves"],
 			
 		"access_rules": 
-			["club", "Hammer"],
+			["club, clearedrtg", "Hammer, clearedrtg"],
 		
         "children": 
         [
@@ -33,6 +33,7 @@
 			{
                 "name": "Caves Entrance",
 				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedrtg"],
 				"visibility_rules": [
                             "antcaves"
 							],
@@ -662,6 +663,7 @@
             },
 			{
                 "name": "Ant Caves Clear",
+				"access_rules": "amber: 7",
                 "map_locations": 
                 [
                     {

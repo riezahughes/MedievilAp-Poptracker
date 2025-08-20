@@ -3,6 +3,7 @@
         "name": "Gallows Gauntlet",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedcrystal"],
 				
         "children": 
         [
@@ -195,7 +196,8 @@
                 "sections": 
                 [
                     {
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "clearedgallows"
 					}
                 ]
             }

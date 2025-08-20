@@ -3,6 +3,7 @@
         "name": "The Time Device",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedhall"],
 				
         "children": 
         [
@@ -231,12 +232,16 @@
                 "sections": 
                 [
                     {
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "cleareddevice"
 					}
                 ]
             },
 			{
                 "name": "Zarok's Arena",
+				"parent": "dan's crypt",
+				"access_rules": [ "cleareddevice"],
+				
                 "map_locations": 
                 [
                     {
@@ -255,6 +260,8 @@
             },
 			{
                 "name": "Zarok's Arena",
+				"parent": "dan's crypt",
+				"access_rules": [ "cleareddevice"],
                 "map_locations": 
                 [
                     {
@@ -273,6 +280,8 @@
             },
 			{
                 "name": "Game Clear",
+				"parent": "dan's crypt",
+				"access_rules": [ "cleareddevice"],
 				"access_rules": "goodlightning",
                 "map_locations": 
                 [

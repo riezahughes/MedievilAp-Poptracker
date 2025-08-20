@@ -3,6 +3,7 @@
         "name": "The Ghost Ship",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedruins"],
 				
         "children": 
         [
@@ -308,7 +309,8 @@
                 "sections": 
                 [
                     {
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "clearedship"
 					}
                 ]
             }

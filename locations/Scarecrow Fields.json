@@ -3,6 +3,7 @@
         "name": "Scarecrow Fields",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedrtg"],
 		
         "children": 
         [
@@ -45,7 +46,7 @@
                 ]
             },
 			{
-                "name": "Silver Shield",
+                "name": "Second Machine",
                 "map_locations": 
                 [
                     {
@@ -64,7 +65,7 @@
                 ]
             },
 			{
-                "name": "Earth Rune",
+                "name": "Moon Barn",
                 "map_locations": 
                 [
                     {
@@ -85,7 +86,7 @@
                 ]
             },
 			{
-                "name": "Moon Rune (Does not work yet)",
+                "name": "First Machine",
                 "map_locations": 
                 [
                     {
@@ -106,7 +107,7 @@
                 ]
             },
 			{
-                "name": "Chaos Rune (Does not work yet)",
+                "name": "Second Machine",
                 "map_locations": 
                 [
                     {
@@ -127,7 +128,7 @@
                 ]
             },
 			{
-				"name": "Club",
+				"name": "Moon Barn",
 				"map_locations": 
 				[
 					{
@@ -212,8 +213,7 @@
                 ]
             },
 			{
-                "name": "Coin Bag Shop",
-				"parent": "Dan's Crypt",
+                "name": "Behind Barn",
                 "map_locations": 
                 [
                     {
@@ -327,7 +327,7 @@
                 ]
             },
 			{
-                "name": "Coin Bag Haystack 1",
+                "name": "Haystack 1",
                 "map_locations": 
                 [
                     {
@@ -346,7 +346,7 @@
                 ]
             },
 			{
-                "name": "Coin Bag Haystack 2",
+                "name": "Haystack 3",
                 "map_locations": 
                 [
                     {
@@ -365,7 +365,7 @@
                 ]
             },
 			{
-                "name": "Coin Chest Haystack 1",
+                "name": "Haystack 2",
                 "map_locations": 
                 [
                     {
@@ -384,7 +384,7 @@
                 ]
             },
 			{
-                "name": "Coin Chest Haystack 2",
+                "name": "Haystack 4",
                 "map_locations": 
                 [
                     {
@@ -403,7 +403,7 @@
                 ]
             },
 			{
-                "name": "Energy Vial Shop",
+                "name": "Shop",
                 "map_locations": 
                 [
                     {
@@ -460,7 +460,8 @@
                 "sections": 
                 [
                     {
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "clearedfields"
 					}
                 ]
             }

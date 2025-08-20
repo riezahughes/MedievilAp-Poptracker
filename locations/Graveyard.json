@@ -3,9 +3,8 @@
         "name": "The Graveyard",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [
-		"@Dan's Crypt/cleared crypt/cleared"
-		],
+		"access_rules": [ "clearedcrypt"],
+		
         "children": 
         [
             {
@@ -88,7 +87,6 @@
                 [
                     {
                         "name": "Chaos Rune",
-                        "clear_as_group": true,
 						"visibility_rules": [
                             "runesanity"
 							]
@@ -229,7 +227,8 @@
                 "sections": 
                 [
                     {
-                        "name": "Cleared"
+                        "name": "Cleared",
+						"hosted_item": "clearedgraveyard"
                     }
                 ]
             }
